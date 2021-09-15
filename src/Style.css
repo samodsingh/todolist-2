@@ -9,6 +9,7 @@
   font-family: "Source Sans Pro", sans-serif;
 }
 
+
 html {
   font-size: 62.5%;
 }
@@ -18,16 +19,24 @@ html {
   background: #1b1d2b;
   display: flex;
   justify-content: center;
-  /* align-items: center; */
+  flex-direction:column ;
+  align-items: center;
+}
+.heaDing{
+  color: white;
+  font-size: 50px;
+  height: 20px;
+  margin-top: 50px;
+  
 }
 
 .child-div {
   text-align: center;
-  margin-top: 12rem;
   min-height: 300px;
   height: 100%;
   width: 500px;
   background-color: white;
+margin: auto;
   
 }
 

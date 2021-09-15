@@ -77,6 +77,7 @@ setToggleBotton(true);
     return (
       <>
         <div className="main-div">
+          <h1 className = "heaDing">My Todo List</h1>
           <div className="child-div">
             <figure>
               <figcaption>Todo List</figcaption>
